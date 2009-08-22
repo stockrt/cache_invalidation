@@ -6,7 +6,7 @@
 Invalidates browser's cache for a given page based on the last refresh.
 
 Usage:
-Include in the HEAD of your page and set the TTL
+- Include in the HEAD of your page and set the TTL
     <html>
 
     <head>
@@ -19,7 +19,7 @@ Include in the HEAD of your page and set the TTL
 
     </html>
 
-And set the TTL you want into the cache_invalidation.js file:
+- And set the TTL you want into the cache_invalidation.js file:
     // TTL: set your cache threshold here
     var ttl = 300;  // seconds
 

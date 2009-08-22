@@ -2,9 +2,10 @@
  * Author: Rogério Carvalho Schneider <stockrt@gmail.com>
  * URL:    http://stockrt.github.com
  *
- * Invalidates browser's cache for a given page based on the last refresh
+ * Invalidates browser's cache for a given page based on the last refresh.
  *
- * Usage: Include in the HEAD of your page and set the TTL
+ * Usage:
+ * - Include in the HEAD of your page and set the TTL
  *
  * <html>
  *
@@ -17,6 +18,10 @@
  * </body>
  *
  * </html>
+ *
+ * - And set the TTL you want into the cache_invalidation.js file:
+ *    // TTL: set your cache threshold here
+ *    var ttl = 300;  // seconds
  */
 
 // TTL: set your cache threshold here
