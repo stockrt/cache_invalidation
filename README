@@ -1,0 +1,27 @@
+#
+# Author: Rogério Carvalho Schneider <stockrt@gmail.com>
+# URL:    http://stockrt.github.com
+#
+
+Invalidates browser's cache for a given page based on the last refresh.
+
+Usage:
+Include in the HEAD of your page and set the TTL
+    <html>
+
+    <head>
+     <script src="http://your_site/javascripts/querystring.js" type="text/javascript"></script>
+     <script src="http://your_site/javascripts/cache_invalidation.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+    </body>
+
+    </html>
+
+And set the TTL you want into the cache_invalidation.js file:
+    // TTL: set your cache threshold here
+    var ttl = 300;  // seconds
+
+The querystring.js component I got from Adam Vandenberg:
+http://adamv.com/dev/javascript/querystring
