@@ -25,3 +25,6 @@ Usage:
 
 The querystring.js component I got from Adam Vandenberg:
 http://adamv.com/dev/javascript/querystring
+
+See also for a complete explanation on how it works and why:
+http://stockrt.github.com/p/browser-cache-invalidation-with-javascript-and-querystring
